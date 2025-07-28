@@ -4,13 +4,12 @@ import java.math.BigInteger;
 import java.util.*;
 
 public class ShamirSecretReconstructionJSON {
-
-    static int N, K;
+    static int N,K;
     static final BigInteger MOD = new BigInteger("104729"); 
 
     static class Share {
-        BigInteger x, y;
-        Share(BigInteger x, BigInteger y) {
+        BigInteger x,y;
+        Share(BigInteger x,BigInteger y) {
             this.x = x;
             this.y = y;
         }
